@@ -129,7 +129,7 @@ streamlit run app.py
 - **GLCM entropy threshold (H = 3.5 bits)**: calibrated empirically on the Kattankulathur site, then cross-checked on a secondary semi-arid ROI without recalibration — it held up, which suggests it generalizes across bioclimatic zones rather than being overfit to one campus.
 - **LST calibration**: `LST (°C) = DN × 0.00341802 + 149.0 − 273.15`, applied to Landsat-8 Collection 2 Level-2 Band 10.
 
-Full derivations, ablations, and cross-validation results are in the paper (`docs/Mahara_etal_2026_UHI_ICIRCA.pdf`).
+Full derivations, ablations, and cross-validation results are in the paper: [IEEE Xplore](https://ieeexplore.ieee.org/document/11570461).
 
 ## Limitations
 
@@ -149,7 +149,8 @@ If this is useful for your own work, here's the BibTeX:
   booktitle = {Proceedings of the 7th International Conference on Inventive Research in Computing Applications (ICIRCA)},
   pages     = {453--460},
   year      = {2026},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  url       = {https://ieeexplore.ieee.org/document/11570461}
 }
 ```
 
